@@ -1,0 +1,52 @@
+body {
+  display: block;
+}
+
+.ramka {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+header {
+  width: 100%;
+  clear: both;
+  margin-bottom: 2em;
+  background-color: red;
+}
+
+main {
+  width: 60%;
+  float: left;
+  margin-left: 1em;
+  padding: 1em;
+  background-color: gray;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  margin-right: 1em;
+  background-color: gray;
+}
+
+footer {
+  width: 100%;
+  clear: both;
+  margin-top: 2em;
+  text-align: center;
+  background-color: red;
+}
+
+article {
+  margin-bottom: 5px;
+  background-color: lightgray;
+}
+
+li {
+  background-color: lightgray;
+}
+
+ul {
+  list-style: none;
+}
